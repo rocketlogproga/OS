@@ -1,0 +1,428 @@
+813   read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360q\2\0\0\0\0\0"..., 832) = 832
+813   pipe([3, 4])                      = 0
+813   read(0, "test2\n1.2 2.4 3 -4.1\n4 5 6 12 32"..., 4096) = 199
+813   write(4, "1", 1 <unfinished ...>
+814   dup2(3, 0 <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... dup2 resumed>)               = 0
+813   write(4, ".", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, ".", 1)                  = 1
+813   write(4, "4", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "3", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "-", 1)                  = 1
+813   write(4, "4", 1)                  = 1
+813   write(4, ".", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "\n", 1)                 = 1
+814   read(4,  <unfinished ...>
+813   write(4, "4", 1)                  = 1
+813   write(4, " ", 1 <unfinished ...>
+814   <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360q\2\0\0\0\0\0"..., 832) = 832
+813   <... write resumed>)              = 1
+813   write(4, "5", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "6", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "3", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "0", 1)                  = 1
+813   write(4, ".", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "0", 1)                  = 1
+813   write(4, ".", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, "\n", 1)                 = 1
+813   write(4, "0", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "4", 1)                  = 1
+813   write(4, "\n", 1)                 = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1.2 2.4 3 -4.1\n4 5 6 12 32 0.111"..., 4096) = 50
+813   write(4, "1", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1 1", 4096)    = 3
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, ".", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>".", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "0", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"0", 4096)      = 1
+813   write(4, "\n", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"\n", 4096)     = 1
+813   write(4, "-", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"-", 4096)      = 1
+813   write(4, "7", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"7", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "8", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"8", 4096)      = 1
+813   write(4, ".", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>".", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "2", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"2", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "8", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"8", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "0", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"0", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "0", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"0", 4096)      = 1
+813   write(4, ".", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>".", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "0", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"0", 4096)      = 1
+813   write(4, ".", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>".", 4096)      = 1
+813   write(4, "2", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"2", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, ".", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>".", 4096)      = 1
+813   write(4, "2", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"2", 4096)      = 1
+813   write(4, "\n", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"\n", 4096)     = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "2", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"2", 4096)      = 1
+813   write(4, "3", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"3", 4096)      = 1
+813   write(4, "4", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"4", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "-", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"-", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "0", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"0", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "0", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"0", 4096)      = 1
+813   write(4, ".", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>".", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "\n", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"\n", 4096)     = 1
+813   write(4, "3", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"3", 4096)      = 1
+813   write(4, "9", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"9", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "2", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"2", 4096)      = 1
+813   write(4, "9", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"9", 4096)      = 1
+813   write(4, "3", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"3", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "3", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"3", 4096)      = 1
+813   write(4, "9", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"9", 4096)      = 1
+813   write(4, "1", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"1", 4096)      = 1
+813   write(4, "2", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"2", 4096)      = 1
+813   write(4, "3", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"3", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "0", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>"0", 4096)      = 1
+813   write(4, " ", 1 <unfinished ...>
+814   read(0,  <unfinished ...>
+813   <... write resumed>)              = 1
+814   <... read resumed>" ", 4096)      = 1
+813   write(4, "5", 1 <unfinished ...>
+814   write(4, "-0.040650\n0.015627\n0.000000\n0.00"..., 60 <unfinished ...>
+813   <... write resumed>)              = 1
+813   write(4, "8", 1 <unfinished ...>
+814   <... write resumed>)              = 60
+813   <... write resumed>)              = 1
+813   write(4, "3", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, "\n", 1)                 = 1
+813   write(4, "8", 1)                  = 1
+813   write(4, "4", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "9", 1)                  = 1
+813   write(4, "9", 1)                  = 1
+813   write(4, "9", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "-", 1)                  = 1
+813   write(4, "3", 1)                  = 1
+813   write(4, "9", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "3", 1)                  = 1
+813   write(4, "9", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, "3", 1)                  = 1
+813   write(4, "\n", 1)                 = 1
+813   write(4, "7", 1)                  = 1
+813   write(4, "7", 1)                  = 1
+813   write(4, "7", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "-", 1)                  = 1
+813   write(4, "8", 1)                  = 1
+813   write(4, "8", 1)                  = 1
+813   write(4, "7", 1)                  = 1
+813   write(4, "\n", 1)                 = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "9", 1)                  = 1
+813   write(4, "0", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "9", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "3", 1)                  = 1
+813   write(4, "\n", 1)                 = 1
+813   write(4, "3", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "3", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "3", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   write(4, "3", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "1", 1)                  = 1
+813   write(4, " ", 1)                  = 1
+813   write(4, "2", 1)                  = 1
+813   read(0, "", 4096)                 = 0
+813   +++ exited with 0 +++
+814   +++ exited with 254 +++
